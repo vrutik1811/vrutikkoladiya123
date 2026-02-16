@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vrutik Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6 backdrop-blur-md bg-white/10 fixed w-full z-50">
+    <h1 class="text-2xl font-bold text-cyan-400">VK</h1>
+    <div class="space-x-6 hidden md:block">
+      <a href="#about" class="hover:text-cyan-400 transition">About</a>
+      <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+      <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-4">
+    <h2 class="text-5xl md:text-6xl font-bold mb-6">
+      Hi, I'm <span class="text-cyan-400">Vrutik</span>
+    </h2>
+    <p class="text-lg text-gray-300 mb-8 max-w-xl">
+      | Front-End Developer | Python Developer | 
+    </p>
+    <a href="#projects" class="bg-cyan-500 hover:bg-cyan-600 px-8 py-3 rounded-full font-semibold transition duration-300 shadow-lg">
+      View My Work
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6 bg-white/5 backdrop-blur-md">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6 text-cyan-400">About Me</h2>
+      <p class="text-gray-300 leading-relaxed">
+        I am a passionate developer focused on building responsive and interactive web applications.
+        I enjoy solving real-world problems and continuously learning new technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-6">
+    <h2 class="text-4xl font-bold text-center text-cyan-400 mb-12">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      
+      <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md hover:scale-105 transition duration-300 shadow-lg">
+        <h3 class="text-xl font-bold mb-3">Portfolio Website</h3>
+        <p class="text-gray-300">Built using HTML5 and Tailwind CSS with responsive design.</p>
+      </div>
+
+      <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md hover:scale-105 transition duration-300 shadow-lg">
+        <h3 class="text-xl font-bold mb-3">Python Mini Project</h3>
+        <p class="text-gray-300">Developed backend logic and database integration.</p>
+      </div>
+
+      <div class="bg-white/10 p-6 rounded-xl backdrop-blur-md hover:scale-105 transition duration-300 shadow-lg">
+        <h3 class="text-xl font-bold mb-3">Frontend UI Design</h3>
+        <p class="text-gray-300">Created modern UI with animations and responsive layouts.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 text-center bg-white/5">
+    <h2 class="text-4xl font-bold text-cyan-400 mb-6">Contact Me</h2>
+    <p class="text-gray-300 mb-4">Email: vrutikkoladiya@gmail.com</p>
+    <button class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-full transition">
+      Send Message
+    </button>
+  </section>
+
+  <footer class="text-center py-6 bg-black text-gray-400">
+    © 2026 Vrutik Koladiya | All Rights Reserved
+  </footer>
+
+</body>
+</html>
